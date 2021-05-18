@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -126,20 +127,22 @@ input[type="checkbox"]{
 }
 
 #home .home1 .homeleft{
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(0, 59, 112);
 }
 #home .home1 .homeleft p{
     color: rgb(155, 87, 92);
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
 }
 
 #home .home1 { 
-    height: 587px;
+    height: 667px;
     /* width: 1000px; */
     background-image: url(images/home.jpg);
 }
 #home .home1 .homeright img{
-    height:587px ;
+    height:667px ;
     width: 600px;
 }
 
