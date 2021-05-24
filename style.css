@@ -132,6 +132,9 @@ input[type="checkbox"]{
   /* font-family: 'PT Serif', serif; */
     color: rgb(0, 59, 112);
 }
+#home .home1 .homeleft h1{
+  font-size: 25px;
+}
 #home .home1 .homeleft p{
     color: rgb(155, 87, 92);
     /* font-family: 'Dancing Script', cursive; */
