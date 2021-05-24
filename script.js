@@ -2,7 +2,7 @@ $(function () {
     $('#myDiv').floatingWhatsApp({
     phone: '+971 501527347',
     popupMessage: 'Hello, how can i help you?',
-    message: "I want to sanitize my office",
+    message: "I want free inspection",
     showPopup: true,
     showOnIE: false,
     headerTitle: 'Welcome!',
