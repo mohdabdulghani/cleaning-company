@@ -6,3 +6,15 @@
     text-decoration: black wavy underline ;
 
 }
+#certified .img{
+    display: grid;
+     grid-template-columns: 300px 300px 300px;  
+     grid-gap: 30px;
+}
+#certified .img img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    border: 2px solid black;
+}

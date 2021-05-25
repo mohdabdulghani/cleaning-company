@@ -198,15 +198,31 @@ input[type="checkbox"]{
   background-image: url(images/qual.jpg);
   display: flex;
 }
+#quality .qualityclass .leftquality{
+  display: grid;
+  /* justify-content: space-evenly; */
+grid-template-columns: 200px 200px ;
+grid-gap:15px;
+
+}
 #quality .qualityclass .leftquality img{
-  height: 500px;
-  width: 600px;
+  justify-content: space-evenly;
+  border:2px solid black;
+  height: 200px;
+  width: 200px;
+margin: 5px;
+margin-left: 50px;
+
+}
+#quality .qualityclass .rightquality{
+  margin-left: 100px;
 }
 #quality .qualityclass .rightquality h1{
   color: rgb(35, 83, 83);
 }
 #quality .qualityclass .rightquality p{
   color: rgb(24, 67, 185);
+
 }
 .air{
   display: flex;
