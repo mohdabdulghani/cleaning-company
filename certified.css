@@ -18,3 +18,12 @@
     margin-left: 30px;
     border: 2px solid black;
 }
+@media only screen and  (max-width:500px) {
+    #certified .img{
+        display: block;
+    }
+    #certified .img img{
+        height: 150px;
+        width: 150px;
+    }
+}

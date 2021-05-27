@@ -334,6 +334,10 @@ margin-left: 50px;
     .air .airleft{
       display: block;
     }
+    #quality .qualityclass .leftquality img{
+      height: 120px;
+      width: 170px;
+    }
     
 }
 
