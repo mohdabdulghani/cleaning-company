@@ -29,6 +29,15 @@ nav .logo img{
     height: 60px;
     border-radius: 10px;
 }
+nav .call{
+  color:black;
+  font-weight:900;
+}
+nav .call p{
+  font-size: 17px;
+  /* letter-spacing: 0.5px; */
+  font-style: italic;
+}
 nav ul{
   display: flex;
   flex-wrap: wrap;
@@ -283,6 +292,9 @@ margin-left: 50px;
     nav ul li a:hover{
       background: none;
       color: cyan;
+    }
+    nav .call{
+      display: none;
     }
   }
 
