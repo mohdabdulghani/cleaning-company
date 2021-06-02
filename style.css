@@ -37,6 +37,7 @@ nav .call p{
   font-size: 17px;
   /* letter-spacing: 0.5px; */
   font-style: italic;
+  color: white;
 }
 nav ul{
   display: flex;
@@ -295,6 +296,7 @@ margin-left: 50px;
     }
     nav .call{
       display: none;
+      
     }
   }
 
